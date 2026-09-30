@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
     success: true,
     message: 'Library Loan API - Responsi PPB 2026',
     version: '1.0.0',
-    documentation: 'https://github.com/<username>/library-loan-api#readme',
+    documentation: 'https://github.com/revansyahfaris/library-loan-api#readme',
     endpoints: {
       loans: {
         list: 'GET /api/loans',

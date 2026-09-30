@@ -219,7 +219,7 @@ GET /api/loans?status=Terlambat&limit=2
 ```
 
 ```bash
-curl "https://<nama-project>.vercel.app/api/loans?status=Terlambat&limit=2"
+curl "https://library-loan-api-two.vercel.app/api/loans?status=Terlambat&limit=2"
 ```
 
 **Response — `200 OK`**
@@ -290,7 +290,7 @@ Content-Type: application/json
 ```
 
 ```bash
-curl -X POST "https://<nama-project>.vercel.app/api/loans" \
+curl -X POST "https://library-loan-api-two.vercel.app/api/loans" \
   -H "Content-Type: application/json" \
   -d '{
     "member_id": "11111111-1111-1111-1111-111111111111",
@@ -504,7 +504,7 @@ DELETE /api/loans/7c9e6679-7425-40de-944b-e07fc1f90ae7
 ### Langkah 1 — Clone Repository
 
 ```bash
-git clone https://github.com/<username>/library-loan-api.git
+git clone https://github.com/revansyahfaris/library-loan-api.git
 cd library-loan-api
 ```
 
@@ -597,8 +597,8 @@ vercel --prod   # deploy production
 ### Verifikasi Deployment
 
 ```bash
-curl https://<nama-project>.vercel.app/health
-curl "https://<nama-project>.vercel.app/api/loans?status=Terlambat"
+curl https://library-loan-api-two.vercel.app/health
+curl "https://library-loan-api-two.vercel.app/api/loans?status=Terlambat"
 ```
 
 ### Cara Kerja Konfigurasi Vercel
