@@ -4,8 +4,8 @@ REST API untuk pencatatan peminjaman buku perpustakaan. Dibangun menggunakan **N
 
 > Tugas Responsi — Praktikum Pemrograman Berbasis Platform (PPB) 2026
 
-**🔗 Base URL Produksi:** `https://<nama-project>.vercel.app`
-**🔗 Repository:** `https://github.com/<username>/library-loan-api`
+**🔗 Base URL Produksi:** `https://library-loan-api-two.vercel.app/`
+**🔗 Repository:** `https://github.com/revansyahfaris/library-loan-api`
 
 ---
 
